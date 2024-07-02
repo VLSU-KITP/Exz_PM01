@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0D68011A-6CDC-45BC-ADB4-1A8F61AC118D}"
+	ProjectSection(SolutionItems) = preProject
+		test\Lab_1_AAS.pdf = test\Lab_1_AAS.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{B0F6B776-2460-4D65-8EB3-B6F4BA896FF2}"
+	ProjectSection(SolutionItems) = preProject
+		doc\Chinook.png = doc\Chinook.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src", "src\src.csproj", "{938BF140-D51E-4C82-8997-EA3BBC5D1346}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{938BF140-D51E-4C82-8997-EA3BBC5D1346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938BF140-D51E-4C82-8997-EA3BBC5D1346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938BF140-D51E-4C82-8997-EA3BBC5D1346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938BF140-D51E-4C82-8997-EA3BBC5D1346}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFB9EE29-A794-476E-829F-9B797B7FB046}
+	EndGlobalSection
+EndGlobal
